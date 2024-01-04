@@ -1,0 +1,16 @@
+*, 
+*::before,
+*::after{
+    font-family: 'Nunito', sans-serif;
+}
+
+header h1{
+    text-align: center;
+    font-size: 36px;
+}
+
+main p{
+    text-align: justify;
+    padding: 25px 50px;
+    color: brown;
+}
