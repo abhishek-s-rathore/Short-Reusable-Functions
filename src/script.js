@@ -11,8 +11,13 @@ console.log(index.next().value);
 // Calculate Time Of Execution
 (function CalculateTime(){
 console.time('calculated_time');
-   // Block of code whose execution time need to be calculated
+      // Block Of Code
 console.timeEnd('calculated_time');
 })();
 
 
+// Create An Array Of Numbers From 1 to n
+
+let numbers = (n)=>{
+  Array.from({length: n}, (_, i)=>i+1)
+}
